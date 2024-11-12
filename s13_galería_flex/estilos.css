@@ -33,8 +33,11 @@ body {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    filter: saturate(0);
   }
-  
+ .column a:hover img {
+    filter: saturate(1);
+  }
   @media (max-width: 800px) {
     .column {
       flex: 50%;
