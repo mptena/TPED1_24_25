@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header {
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 100px;
+}
+
+body {
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+background-image: url(imagenes/fondo-1400x860.jpg);
+background-size: cover;
+}
+
+.top-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.top-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.contenedor-de-texto{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+   
+}
+
+.texto {
+    max-width: 70%;
+}
+
+
+
+.texto h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.texto2 p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+.texto2 a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.texto a:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+#Photoshop{
+    width: 30px;
+}
+
+#illustrator{
+    width: 30px;
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    
+}
+
+#ofertas {
+    display: flex;
+    justify-content: start;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    list-style: none;
+}
+#ofertas2 {
+    color: darkgoldenrod;
+}
+.links  {
+    color: #fff;
+   
+    font-size: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+}
