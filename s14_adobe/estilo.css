@@ -20,7 +20,7 @@ body {
 width: 100%;
 margin-left: auto;
 margin-right: auto;
-background-image: url(imagenes/fondo-1400x860.jpg);
+/*background-image: url(imagenes/fondo-1400x860.jpg);*/
 background-size: cover;
 }
 
@@ -37,19 +37,29 @@ background-size: cover;
 
 
 .contenedor-de-texto{
-    width: 45%;
+    width: 100%;
     display: flex;
-    align-items: center;
+    flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center;
+   
     padding: 50px;
    
 }
 
 .texto {
-    max-width: 70%;
+    width: 45%;
+    background-color: aqua;
 }
 
+.cosmos {
+    width: 45%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: left;
+    background-color: #007bff;
 
+}
 
 .texto h1 {
     font-size: 32px;
@@ -67,6 +77,7 @@ background-size: cover;
     line-height: 1.6;
     margin-bottom: 20px;
     color: #007bff;
+    background-color: brown;
 }
 .texto2 a {
     display: inline-block;
@@ -83,6 +94,11 @@ background-size: cover;
     background-color: #0056b3;
 }
 
+.cosmos h2 {
+
+}
+    
+    
 
 #Photoshop{
     width: 30px;
@@ -92,6 +108,9 @@ background-size: cover;
     width: 30px;
 }
 
+#paleta {
+    width: 30px; ;
+}
 .imagen img {
     width: 100%;
     border-radius: 50%;

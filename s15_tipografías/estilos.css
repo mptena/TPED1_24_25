@@ -1,0 +1,75 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Geist+Mono:wght@100..900&family=Noto+Serif+Ahom&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.columna{
+  flex: 20%;
+  padding:5vh;
+ 
+}
+.tipografias {
+    display: flex;
+
+}
+
+
+
+.caja1{
+  font-family: "Titillium Web", serif;
+  height: 30%;
+  font-size: 11pt;
+ 
+
+ 
+}
+  
+.caja2{
+  font-family: "Teko", serif;
+  height: 30%;
+}
+
+.caja3{
+  font-family: "Source Code Pro", serif;
+  height: 30%;
+}
+
+.caja4{
+  font-family: "Sevillana", serif;
+  height: 30%;
+}
+  
+.caja5{
+  font-family: "Roboto", serif;
+  height: 30%;
+}  
+
+.caja6{
+  font-family: "Roboto Condensed", serif;
+  height: 30%;
+}
+
+.caja7{
+  font-family: "Parkinsans", serif;
+  height: 30%;
+  font-size: 10pt;
+}
+
+.caja8{
+  font-family: "Noto Serif Ahom", serif;
+  height: 30%;
+  font-size: 10pt;
+}
+
+.caja9{
+  font-family: "Geist Mono", serif;
+  height: 30%;
+}
