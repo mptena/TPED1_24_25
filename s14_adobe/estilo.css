@@ -10,6 +10,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 header img {
@@ -20,7 +21,7 @@ body {
 width: 100%;
 margin-left: auto;
 margin-right: auto;
-/*background-image: url(imagenes/fondo-1400x860.jpg);*/
+background-image: url(imagenes/fondo-1400x860.jpg);
 background-size: cover;
 }
 
@@ -49,7 +50,7 @@ background-size: cover;
 
 .texto {
     width: 45%;
-    background-color: aqua;
+    
 }
 
 .cosmos {
@@ -57,10 +58,22 @@ background-size: cover;
     display: flex;
     flex-flow: column wrap;
     justify-content: left;
-    background-color: #007bff;
+    padding-top: 30%;
+    
+    
+    
+    }
+
+.cosmos li{
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 5%;
 
 }
 
+.cosmos img{
+width: 25%;
+}
 .texto h1 {
     font-size: 32px;
     margin-bottom: 10px;
@@ -77,7 +90,7 @@ background-size: cover;
     line-height: 1.6;
     margin-bottom: 20px;
     color: #007bff;
-    background-color: brown;
+    
 }
 .texto2 a {
     display: inline-block;
@@ -94,11 +107,7 @@ background-size: cover;
     background-color: #0056b3;
 }
 
-.cosmos h2 {
-
-}
-    
-    
+   
 
 #Photoshop{
     width: 30px;
@@ -117,6 +126,8 @@ background-size: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 footer {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #333;
     color: #fff;
     
@@ -125,15 +136,21 @@ footer {
 #ofertas {
     display: flex;
     justify-content: start;
-    padding: 20px 0;
-    border-top: 1px solid #444;
-    border-bottom: 1px solid #444;
+    border-top: 0.2vh solid #444;
+    border-bottom: 0.2vh solid #444;
+    font-size: 10pt;
     list-style: none;
+}
+
+#ofertas li{
+padding-left:2% ;
 }
 #ofertas2 {
     color: darkgoldenrod;
+  
 }
 .links  {
+    padding-left: 2%;
     color: #fff;
    
     font-size: 20px;
@@ -141,8 +158,14 @@ footer {
 
 .info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
-    font-size: 14px;
+    padding: 2%;
+    font-size: 10pt;
     text-align: center;
 }
+.uno{
+    flex: 5%;
+    text-align: left;
+}
+
