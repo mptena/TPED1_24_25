@@ -1,0 +1,18 @@
+
+*{
+    box-sizing: border-box;
+    background-color: rgba(243, 225, 169, 0.741);
+}
+header{
+    
+    color: rgb(0, 0, 0);
+    font-size: 50pt;
+    display: flex;
+    justify-content: center;
+}
+
+#indice  {
+font-size: 20pt;
+color: gray;
+
+}
