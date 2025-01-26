@@ -45,6 +45,7 @@ body {
   /* Tarjetas en la sección Trabajos */
 
   .card {
+    padding-top: 5%;
     transition: transform 0.3s ease;
   }
   
