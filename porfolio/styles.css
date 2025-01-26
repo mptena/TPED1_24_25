@@ -36,16 +36,16 @@ body {
     background-color: rgb(236, 219, 29);
   }
   #sobre-mi img {
+    margin-left: 30%;
     border-radius: 10%;
-    width: 70vh;
-    height: 70vh;
+    width: 30vw;
+    
     
   }
   
   /* Tarjetas en la sección Trabajos */
 
   .card {
-    padding-top: 5%;
     transition: transform 0.3s ease;
   }
   
@@ -99,7 +99,8 @@ body {
   @media (max-width: 768px) {
 
     #japonesa{
-      width: 30vh;
+      width: 100vw;
+      
     }
 
     #izquierda {
@@ -112,30 +113,38 @@ body {
     }
 
     #derecha {
-      width: 100vh;
+      width: 100vw;
     
+    }
+
+    #sobre-mi{
+      width: 80vw;
     }
   }
   
   @media (max-width: 576px) {
 
     #japonesa{
-      width: 50vh;
+      width: 50vw;
     }
   
     #izquierda {
-      width: 100vh;
+      width: 100vw;
      
     }
 
     #derecha {
-      width: 100vh;
+      width: 100vw;
      
     }
 
     #carrusel {
       
-      height:50vh;
+      height:50svw;
+    }
+
+    #sobre-mi{
+      width: 80vw;
     }
   }
   
