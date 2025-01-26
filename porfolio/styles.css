@@ -88,6 +88,11 @@ body {
   
   /* Medidas responsivas */
   @media (max-width: 768px) {
+
+    #japonesa{
+      width: 100vh;
+    }
+    
     #izquierda {
       width: 100vw;
       min-width: 400px;
@@ -104,6 +109,10 @@ body {
   }
   
   @media (max-width: 576px) {
+
+    #japonesa{
+      width: 100vh;
+    }
   
     #izquierda {
       width: 100vh;
