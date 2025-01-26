@@ -90,13 +90,13 @@ body {
   @media (max-width: 768px) {
 
     #japonesa{
-      width: 100vh;
+      width: 50vh;
     }
-    
+
     #izquierda {
       width: 100vw;
       min-width: 400px;
-      height:50vh;
+      
     }
     #izquierda img{
       width: 100%;
@@ -104,14 +104,14 @@ body {
 
     #derecha {
       width: 100vh;
-      height:50vh;
+    
     }
   }
   
   @media (max-width: 576px) {
 
     #japonesa{
-      width: 100vh;
+      width: 50vh;
     }
   
     #izquierda {
